@@ -1,72 +1,73 @@
 MarlowSports
 
-Quantitative Sports Modelling | Predictive Systems Architecture | Applied Machine Learning
+Quantitative Sports Analytics | Predictive Systems Architecture | Applied Machine Learning
 
-Independent quantitative modeller building fully automated end-to-end predictive systems for football markets.
+Independent quantitative modeller designing end-to-end predictive systems for football markets, focused on extracting edge from Asian Handicap betting.
 
-Over 18 months designing, validating, and iterating structured machine learning pipelines focused on extracting edge from Asian Handicap markets.
+Over 18 months, I’ve built regime-aware, automated predictive pipelines in KNIME, integrating structured feature engineering, clustering, and conditional model selection for robust out-of-sample performance.
 
 Core Project
 Soccer Asian Handicap Predictive System
 
-Built a production-ready modelling framework in KNIME integrating:
+System Overview:
+A regime-aware predictive modelling framework integrating:
 
-Data Engineering
+Feature Engineering & Data Encoding
 
-Large-scale historical match ingestion & preprocessing
+Composite match-state feature encodings (structured performance indices)
 
-Custom feature architecture (form indices, structured scorecards, momentum signals)
+Cluster-derived categorical features summarizing latent match regimes
 
-K-Means clustering for regime segmentation and edge isolation
+Custom metrics capturing team form, momentum, and situational factors
 
-Modelling Stack
+Unsupervised & Supervised Modelling
 
-Regularized regression (Ridge, Lasso, GLM)
+K-Means clustering to segment matches into performance regimes
 
-Ensemble classifiers (SVM, Naive Bayes, KNN, Random Forest)
+Ensemble classifiers: SVM, Naive Bayes, KNN, Random Forest
 
-H2O AutoML benchmarking & comparative validation
+Regularized regression: Ridge, Lasso, GLM
 
-Cluster-specific model calibration
+Regime-conditional model selection (meta-learning / mixture-of-experts framework)
 
 Validation & Performance
 
-Strict out-of-sample validation
+Strict out-of-sample testing
 
-Regime-based performance segmentation
+Regime-specific model calibration
 
-~60% directional accuracy in Asian Handicap markets
+Live P&L monitoring with continuous recalibration
 
-Strategy monitored with live P&L tracking and continuous recalibration
+Achieved ~60% directional accuracy in Asian Handicap markets
 
 Technical Stack
 
-KNIME (advanced workflow architecture & variable systems)
+KNIME: Advanced workflow design, variable management, and automation
 
-Machine Learning: regression, classification, clustering
+Machine Learning: Regression, classification, clustering
 
-Feature engineering for structured time-series sports data
+Feature Engineering: Structured encodings, meta-features, regime signals
 
-Model evaluation & probabilistic calibration
+Model Selection: Conditional routing, ensemble gating, meta-learning
 
-Python (integrated workflows)
-
-H2O AutoML experimentation
+AutoML Integration: H2O (benchmarking & model comparison)
 
 Modelling Philosophy
 
-Edge over prediction
+Prioritize edge over raw prediction
 
-Structured validation over optimism
+Build structured, regime-aware models rather than single global predictors
 
-Regime awareness over global models
+Validate rigorously with out-of-sample testing
 
-Continuous iteration driven by statistical evidence
+Continuously iterate with data-driven recalibration and monitoring
 
 Open To
 
 Quantitative sports analytics collaboration
-Applied ML roles (analytics / predictive systems)
+
+Applied ML / predictive systems roles
+
 Research partnerships in probabilistic modelling
 
 Contact: info@well-tempered.co.uk
